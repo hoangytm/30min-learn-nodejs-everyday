@@ -22,13 +22,25 @@ userSchema.pre('save', async function (next) {
     next()
 })
 // check user when login
-userSchema.static.login = async function (email, password) {
-    const user = await this.findOne({email});
+// userSchema.static.login = async function (email, password) {
+//     console.log('it go to there')
+//     const user = await this.findOne({email});
+//     if (user) {
+//         const authen = await bcrypt.compareSync(password, user.password)
+//         if (authen) return user;
+//     }
+//     throw Error('incorrect username or password');
+// }
+userSchema.statics.login = async function(email, password) {
+    const user = await this.findOne({ email });
     if (user) {
-        const authen = await bcrypt.compareSync(password, user.password)
-        if (authen) return user;
+        const auth = await bcrypt.compare(password, user.password);
+        if (auth) {
+            return user;
+        }
+        throw Error('incorrect password');
     }
-    throw Error('incorrect username or password');
-}
+    throw Error('incorrect email');
+};
 const User = mongoose.model('user', userSchema)
 module.exports = User;

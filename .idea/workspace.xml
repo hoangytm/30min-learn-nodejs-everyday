@@ -1,11 +1,61 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="57843370-d678-49ac-8612-84278f1149f5" name="Default Changelist" comment="" />
+    <list default="true" id="57843370-d678-49ac-8612-84278f1149f5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/controller/authenController.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/middleware/middleware.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/routes/authenRoutes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/home.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/login.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/footer.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/partials/header.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/signup.ejs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/views/smoothies.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/model/User.js" beforeDir="false" afterPath="$PROJECT_DIR$/model/User.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/smoothie.png" beforeDir="false" afterPath="$PROJECT_DIR$/public/smoothie.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/images/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/public/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/stylesheets/style.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/users.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/error.ejs" beforeDir="false" afterPath="$PROJECT_DIR$/views/error.ejs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/views/index.ejs" beforeDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1gwGqhnWm6jyYoZXTz2D04Ictyl" />
   <component name="ProjectViewState">
@@ -13,15 +63,19 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/views" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="ts.external.directory.path" value="C:\Program Files\JetBrains\WebStorm 2020.2\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\phann\WebstormProjects\customJwt\views" />
+      <recent name="C:\Users\phann\WebstormProjects\customJwt\public" />
       <recent name="C:\Users\phann\WebstormProjects\customJwt\public\images" />
     </key>
   </component>
@@ -45,37 +99,63 @@
       <updated>1599018433803</updated>
       <workItem from="1599018435196" duration="1023000" />
       <workItem from="1599019788356" duration="1020000" />
-      <workItem from="1599148208811" duration="1576000" />
+      <workItem from="1599148208811" duration="2003000" />
+      <workItem from="1599177189424" duration="1202000" />
+      <workItem from="1599229433917" duration="4909000" />
+      <workItem from="1599321805092" duration="2395000" />
+      <workItem from="1599360477902" duration="4075000" />
+      <workItem from="1599392249320" duration="313000" />
+      <workItem from="1599590647606" duration="673000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
   <component name="WindowStateProjectService">
-    <state x="464" y="119" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599020130119">
+    <state x="401" y="216" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1599233085117">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="464" y="119" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1599020130119" />
-    <state width="1549" height="275" key="GridCell.Tab.0.bottom" timestamp="1599149551914">
+    <state x="401" y="216" key="#com.intellij.fileTypes.FileTypeChooser/0.0.1600.860@0.0.1600.860" timestamp="1599233085117" />
+    <state x="464" y="119" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1599231860891">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1549" height="275" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599149551914" />
-    <state width="1549" height="275" key="GridCell.Tab.0.center" timestamp="1599149551914">
+    <state x="464" y="119" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/0.0.1600.860@0.0.1600.860" timestamp="1599231860891" />
+    <state width="1549" height="185" key="GridCell.Tab.0.bottom" timestamp="1599392564237">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1549" height="275" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1599149551914" />
-    <state width="1549" height="275" key="GridCell.Tab.0.left" timestamp="1599149551914">
+    <state width="1549" height="185" key="GridCell.Tab.0.bottom/0.0.1600.860@0.0.1600.860" timestamp="1599392564237" />
+    <state width="1549" height="185" key="GridCell.Tab.0.center" timestamp="1599392564237">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1549" height="275" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1599149551914" />
-    <state width="1549" height="275" key="GridCell.Tab.0.right" timestamp="1599149551914">
+    <state width="1549" height="185" key="GridCell.Tab.0.center/0.0.1600.860@0.0.1600.860" timestamp="1599392564237" />
+    <state width="1549" height="185" key="GridCell.Tab.0.left" timestamp="1599392564237">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state width="1549" height="275" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1599149551914" />
-    <state x="419" y="105" width="761" height="650" key="find.popup" timestamp="1599020094209">
+    <state width="1549" height="185" key="GridCell.Tab.0.left/0.0.1600.860@0.0.1600.860" timestamp="1599392564237" />
+    <state width="1549" height="185" key="GridCell.Tab.0.right" timestamp="1599392564237">
       <screen x="0" y="0" width="1600" height="860" />
     </state>
-    <state x="419" y="105" width="761" height="650" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1599020094209" />
+    <state width="1549" height="185" key="GridCell.Tab.0.right/0.0.1600.860@0.0.1600.860" timestamp="1599392564237" />
+    <state x="221" y="0" key="SettingsEditor" timestamp="1599230216470">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="221" y="0" key="SettingsEditor/0.0.1600.860@0.0.1600.860" timestamp="1599230216470" />
+    <state x="419" y="105" width="944" height="650" key="find.popup" timestamp="1599391252101">
+      <screen x="0" y="0" width="1600" height="860" />
+    </state>
+    <state x="419" y="105" width="944" height="650" key="find.popup/0.0.1600.860@0.0.1600.860" timestamp="1599391252101" />
   </component>
 </project>
