@@ -21,16 +21,7 @@ userSchema.pre('save', async function (next) {
     this.password = await bcrypt.hashSync(this.password, salt);
     next()
 })
-// check user when login
-// userSchema.static.login = async function (email, password) {
-//     console.log('it go to there')
-//     const user = await this.findOne({email});
-//     if (user) {
-//         const authen = await bcrypt.compareSync(password, user.password)
-//         if (authen) return user;
-//     }
-//     throw Error('incorrect username or password');
-// }
+
 userSchema.statics.login = async function(email, password) {
     const user = await this.findOne({ email });
     if (user) {
